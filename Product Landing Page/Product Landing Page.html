@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Quotes - Product Landing Page</title>
+  <link rel="stylesheet" href="./LandingPage.css">
+</head>
+
+<body>
+  <header id="header"> <!--Header Section-->
+    <nav id="nav-bar">
+      <div style="display: flex; align-items: center;">
+        <img id="header-img" src="https://cdn.pixabay.com/photo/2016/08/25/07/30/red-1618916_960_720.png" />
+        <span><strong style="color: white; padding-left: 10px;">Our Quotes</strong></span>
+      </div>
+      
+      <div>
+        <ul class="nav-section">
+          <li><a href="#demo" class="nav-link">Demo</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#subscribe" class="nav-link">Subscribe</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="main-section"> <!--Main Section-->
+    <div class="heading">
+      <h1>Success starts with a great quotes</h1>
+      <p style="width: 50%; font-size: larger; margin: 25px auto;">We provides best quotes for your better future and to put you in right direction.
+      <br>Believe it or not one single quote can change your life.</p>
+    </div>
+    
+    <div id="demo"> <!--Video-->
+      <h3 style="margin-bottom: 30px;">Do you wanna watch our quotes? Watch this demo.</h3>
+      <iframe id="video" width="500" height="315" src="https://www.youtube.com/embed/GgYtHboaIW8" allowfullscreen></iframe>
+    </div>
+    <div id="pricing"> <!--Pricing Section-->
+      <h2>Choose your plan wisely :</h2>
+      <div id="box-container">
+      <div class="box">
+        <h3 style="text-align: center;">
+          Standard
+        </h3>
+        <div class="box-content">
+          <li>30 videos per month</li>
+          <li>Write upto 20 quotes per month</li>
+        </div>
+        <div style="text-align: center;">
+          Price : $5 per month
+        </div>
+        <button class="box-btn">Enroll</button>
+      </div>
+
+      <div class="box">
+        <h3 style="text-align: center;">
+          Premium
+        </h3>
+        <div class="box-content">
+          <li>60 videos per month</li>
+          <li>Write upto 50 quotes per month</li>
+          <li>Author's Support</li>
+        </div>
+        <div style="text-align: center;">
+          Price : $10 per month
+        </div>
+        <button class="box-btn">Enroll</button>
+      </div>
+    </div>
+    </div>
+    <div id="subscribe"> <!--Subscribe Section-->
+      <h3>Submit your email to get in touch with us.</h3>
+      <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="Your Email">
+        <input type="submit" id="submit" value="submit">
+      </form>
+    </div>
+  </div>
+
+  <footer id="footer"> <!--Footer Section-->
+    &copy; All rights reserved
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

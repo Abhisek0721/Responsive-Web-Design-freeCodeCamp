@@ -1,0 +1,71 @@
+body{
+    background: #B5C5D2;
+  }
+
+.container{
+    width:700px;
+    max-width:90%;
+    margin:20px auto;
+    padding: 20px 12px 10px 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+#title{
+    color: navy;
+    text-align: center;
+}
+#description{
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.label{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 20px auto;
+}
+
+.input{
+    width: 90%;
+    padding: 5px 10px;
+    border: 2px solid navy;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+.infoField{
+    margin: 25px auto;
+    padding: 20px;
+}
+.pointer{cursor: pointer;}
+
+#add-comm{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 90%;
+    max-width: 90%;
+}
+
+#submit{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: navy;
+    color: #B5C5D2;
+    font-size: large;
+    font-weight: bold;
+    padding: 6px 11px;
+    text-align: center;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+#submit:active{
+    background-color: blue;
+    color: white;
+}

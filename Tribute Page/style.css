@@ -1,0 +1,184 @@
+#main
+{
+  position: relative;
+  display: flex;
+  background: rgba(0,0,150,0.2);
+  flex-direction: column;
+  margin: 10px 20px;
+  padding: 15px;
+  align-items: center;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+#title
+{
+  color: rgb(20, 0, 255);
+  visibility: visible;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.1);
+  margin: 0px 5px;
+  align-items: center;
+  padding: 5px 20px 25px 5px;
+  width: auto;
+  visibility: visible;
+}
+
+#img-div
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#image
+{
+   margin: auto;
+   max-width: 70%;
+   height: auto;
+}
+
+#img-caption
+{
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+
+/***** Starting Code: Button "Time Line *****/
+.btn
+{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 4px 5px;
+  background: linear-gradient(200deg, rgb(0,255,0), rgb(0,0,255));
+  color: white;
+}
+
+.btn:hover
+{
+  background: rgba(155, 0, 13,0.7);
+  cursor: pointer;
+  animation: buttonAnim;
+  animation-duration: 0.5s;
+}
+
+@keyframes buttonAnim{
+  0%{
+    background: rgba(0,0,0,0.7);
+  }
+  50%{
+    background: rgba(0,0,0,0.7);
+  }
+  100%{
+    background: rgb(3, 97, 204);
+  }
+}
+
+.btn:active
+{
+  background: rgba(0,0,0,0.7);
+}
+
+.div-btn{
+  margin: 20px 0px;
+  visibility: visible;
+}
+/****** End Code: Button "Time Line" *****/
+
+/***** Starting Code: Wikipedia Info(link) *****/
+.info{
+  font-size: 19px;
+  text-align: center;
+  visibility: visible;
+}
+#tribute-link
+{
+  font-size: 19px;
+  text-decoration: none;
+  color: blue;
+  visibility: visible;
+}
+/***** End Code: Wikipedia Info(link) *****/
+
+
+/* Style of Close Button(for hidding ".login-bg")  */
+.close-btn
+{
+	font-weight: bold;
+	font-size: 20px;
+	transform: rotate(45deg);
+	float: right;
+	background-color: rgba(80,80,250,0.9);
+	color: white;
+	padding: 0px 8px 2px;
+	border-radius: 100%;
+	border: 4px rgba(250,250,250,0.8) solid;
+	cursor: pointer;
+	outline: none;
+  visibility: hidden;
+  text-align: center;
+}
+/* style of close button on hover  */
+.close-btn:hover
+{
+	background-color: white;
+	border: 4px rgba(0,0,0,0.8) solid;	
+	color: black;
+}
+/* style of close button while click  */
+.close-btn:active
+{
+	background-color: hsl(0,60%,40%);
+	border: 4px rgba(0,0,0,0.8) solid;	
+	color: white;
+}
+
+/***** Start Code of tribute info *****/
+
+/***** tributeInfo box *****/
+.tribute-info
+{
+  position: sticky;
+/*   bottom: 90%; */
+	height: auto;
+	border-radius: 6px;
+	text-align: left;
+  padding: 6px 0px;
+  margin: 2px 0px;
+/*   left: 93%; */
+}
+
+#tribute-info
+{
+  margin: 10px 0px;
+  position: absolute;
+  display: none;
+  text-align: left;
+  background: rgba(0,0,0,0.7);
+  width: 95%;
+  height: auto;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+li
+{
+  padding: 10px 0px;
+}
+ul
+{
+  padding: 0px 10px 20px 20px;
+}
+/***** End Code: tribute info *****/

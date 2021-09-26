@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation - JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="page">
+        <nav id="navbar">
+            <header>JS Documentation</header>
+            <ul>
+                <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#Why_JavaScript?" class="nav-link">Why JavaScript?</a></li>
+                <li><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
+                <li><a href="#Get_Started" class="nav-link">Get Started</a></li>
+                <li><a href="#More_about_JavaScript" class="nav-link">More about JavaScript</a></li>
+            </ul>
+        </nav>
+
+
+        <main id="main-doc">
+            <h1 class="title">Technical Documentation Page - JavaScript</h1>
+
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <div class="para-section">
+                    <p class="para">JavaScript is a cross-platform, 
+                        object-oriented scripting language which was created for Web-Development purpose as client-side. 
+                        It is a small and lightweight language. 
+                        Inside a host environment (for example, a web browser),
+                        JavaScript can be connected to the objects of its environment to
+                        provide programmatic control over them.
+                    </p>
+                    <p class="para">
+                        JavaScript contains a standard library of objects, 
+                        such as Array, Date, and Math, 
+                        and a core set of language elements such as operators,
+                        control structures, and statements.
+                    </p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Why_JavaScript?">
+                <header> Why JavaScript? </header>
+                <div class="para-section">
+                    <p class="para">
+                        JavaScript is the world's most popular programming language.
+                        <br><br>
+                        The reason why you should learn JavaScript :
+                        <ul>
+                            <li class="list">JavaScript is the programming language of the Web. You can use
+                                it as both front-end and back-end language.
+                            </li>
+                            <li class="list">JavaScript is easy to learn. It is one the best programming language for beginner.</li>
+                            <li class="list">JavaScript is a forgiving language. Means, It won't through an error if you forget to put ";" at the end of instruction.</li>
+                            <li class="list">Even if there is error in your code, your rest of the code's execution do not stop.</li>
+                            <li class="list">JavaScript is simple. You do not have to be concerned with whether methods are public, private, or protected.</li>
+                        </ul>
+                    </p>
+                    <p class="para"></p>
+                </div>         
+            </section>
+
+            <section class="main-section" id="JavaScript_and_Java">
+                <header>JavaScript and Java</header>
+                <div class="para-section">
+                    <p class="para">JavaScript and Java are completely different languages, both in concept and design.
+                        <br>
+                        JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+                        <br>
+                        ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+                        <br>
+                    </p>
+                    <p class="para">
+                        JavaScript is a very free-form language compared to Java.
+                        You do not have to declare all variables, classes, and methods.
+                        You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces.
+                        <br>
+                        Variables, parameters, and function return types are not explicitly typed.
+                    </p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Get_Started">
+                <header>Get Started</header>
+                <div class="para-section">
+                    <p class="para">To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+                    <code>console.log("Hello World");</code>
+                    <br>
+                    <p style="margin-top: 15px;">Select the code in the pad and hit Ctrl+C to copy this code!</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="More_about_JavaScript">
+                <header>More about JavaScript</header>
+                <div class="para-section paragraph">
+                    <span class="sub-topics" id="Variables">Variables</span>
+                    <p class="para">
+                        <p class="para">
+                            JavaScript variables are containers for storing data values. 
+                            The names of variables, called identifiers, conform to certain rules.
+                        </p>
+                        <p class="para">
+                            A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); 
+                            subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, 
+                            letters include the characters "A" through "Z" (uppercase) 
+                            and the characters "a" through "z" (lowercase).
+                        </p>
+                        <code>
+                            var x = 5;
+                        </code>
+                        <code>
+                            var y = 2.4;
+                        </code>
+                    </p>
+                </div>
+
+                <div class="para-section paragraph">
+                    <span class="sub-topics" id="Constants">Constants</span>
+                    <p class="para">
+                        <p class="para">
+                            A constant cannot change value through assignment or be re-declared while the script is running. 
+                            It has to be initialized to a value
+                        </p>
+                        <p class="para">
+                            You can create a read-only, named constant with the const keyword. 
+                            The syntax of a constant identifier is the same as for a variable identifier:
+                            it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
+                        </p>
+                        <code>
+                            const pie = 3.14;
+                        </code>
+                        <code>
+                            const e = 2.71828;
+                        </code>
+                    </p>
+                </div>
+            </section>
+            <div style="text-align: center;">To learn more about JavaScript, visit : 
+                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/" style="text-decoration: none; color: blue;">JavaScript tutorial - freecodecamp</a>
+            </div> 
+        </main>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

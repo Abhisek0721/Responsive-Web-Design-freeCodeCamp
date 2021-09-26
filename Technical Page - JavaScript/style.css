@@ -1,0 +1,131 @@
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    word-wrap: normal;
+  }
+  
+  #page {
+    display: flex;
+    flex-direction: row;
+  } 
+  
+  .title{
+      font-size: 30px;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+  
+  #navbar header{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #navbar ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #navbar ul li{
+    
+    list-style-type: none;
+    letter-spacing: 2px;
+    color: black;
+    border: 1px solid rgba(0, 22, 22, 0.4);;
+    padding: 30px;
+    height: 10px;
+  }
+
+  #navbar ul li a{
+      text-decoration: none;
+      color: rgba(0, 22, 22, 0.8);
+      font-weight: bold;
+  }
+  
+  #main-doc {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    padding: 20px;
+    margin-bottom: 300px;
+  }
+
+  .main-section{
+      display: block;
+      margin: 5%;
+      padding: 30px;
+  }
+
+  .main-section header{
+      font-weight: bold;
+      font-size: 22px;
+  }
+
+  .para-section{
+      margin: 10px 0;
+      padding: 6px;
+      font-size: 18px;
+  }
+
+  .paragraph{
+      margin: 50px 0;
+  }
+  
+  .para{
+    padding-bottom: 15px;
+    line-height: 25px;
+  }
+
+  .list{
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+
+  code{
+      display: block;
+      width: 40%;
+      background-color: rgba(0, 22, 22, 0.3);
+      padding: 10px 20px;
+  }
+  .sub-topics{
+      font-size: larger;
+      font-weight: bold;
+  }
+
+  @media (max-width: 500px) {
+
+    #navbar {
+        display: none;
+        position: relative;
+    }
+
+    #page{
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 20px;
+      }
+
+    #main-doc {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 20px 50px;
+        margin-bottom: 300px;
+    }
+
+  }
+  
